@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: darkgrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+    margin-right: 15px;
+}
+
+section {
+    width: 60%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.sectionGap {
+    margin-bottom: 20px;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: #222;
+}
+
+.firstSectionGap {
+    font-size: 36px;
+}
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.firstMeme {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.firstMeme h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.tFloatLeft {
+    float: left;
+    width: 50%;
+}
+
+.firstMeme img {
+    max-height: 200px;
+}
+
+.buttons {
+    /* margin-bottom: 20px; */
+    padding-top: 20px;
+    padding-left: 44px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+}
+
+.buttons button {
+    margin: 12px;
+    height: 40px;
+    width: 100px;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: #2a607c;
+    background-color: darkslategray;
+    color: #ffffff;
+}
+
+.buttons button:hover {
+    background-color: #222;
+    transition: 0.5s;
+}
+
+.buttons button:active {
+    background-color: #222;
+    transform: translateY(4px);
+  }
+
+.buttonColumn {
+    float: left;
+    margin-right: 21px;
+}
+
+aside {
+    margin-right: 20px;
+    clear: both;
+    float: right;
+    width: 35%;
+    height: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+.asideContent {
+    background-color:#0072bb;
+    text-align: left;
+    padding: 50px;
+    color: #ffffff;
+}
+
+.asideContent p {
+    margin-left: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.asideContent table {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: auto;
+    width: 80%;
+}
+
+/* .asideContent table, th, td {
+    border: 2px #444;
+} */
+
+.asideContent th, td {
+    margin: 4px;
+    height: 20px;
+    /* border: 2px #444; */
+}
+
+.asideContent ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: auto;
+    list-style: none;
+}
+
+.asideContent li {
+    margin: 4px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: #444444;
+    color: #ffffff
+}
+
+footer h4 {
+    font-size: 20px;
+}
+
